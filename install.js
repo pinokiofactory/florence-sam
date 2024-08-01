@@ -25,7 +25,7 @@ module.exports = {
       when: "{{gpu === 'nvidia'}}",
       method: "shell.run",
       params: {
-        message: "conda install -y anaconda::cudnn>=9.0.0"
+        message: "conda install -y cudnn>=9.0.0 -c anaconda"
       }
     },
     // Edit this step with your custom install commands
